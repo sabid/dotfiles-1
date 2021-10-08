@@ -4,6 +4,7 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'shivammathur/php'
 
 # Binaries
 brew 'awscli'
@@ -33,8 +34,10 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'php'
-brew 'php@7.4'
+#brew 'php'
+#brew 'php@7.4'
+brew 'shivammathur/php/php@8.0'
+brew 'shivammathur/php/php@7.4'
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
@@ -45,6 +48,9 @@ brew 'nginx'
 brew 'node'
 brew 'redis'
 brew 'yarn'
+brew 'zsh-syntax-highlighting'
+brew 'gh'
+brew 'mkcert'
 
 # Apps
 cask '1password'
@@ -62,7 +68,7 @@ cask 'imageoptim'
 cask 'insomnia'
 cask 'pastebot'
 cask 'phpmon'
-cask 'phpstorm'
+#cask 'phpstorm'
 cask 'ray'
 cask 'screenflow'
 cask 'signal'
@@ -73,7 +79,7 @@ cask 'the-unarchiver'
 cask 'tinkerwell'
 cask 'transmit'
 cask 'tunnelbear'
-cask 'tuple'
+#cask 'tuple'
 cask 'visual-studio-code'
 cask 'zoom'
 
@@ -95,7 +101,9 @@ mas 'Byword', id: 420212497
 mas 'Giphy Capture', id: 668208984
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
+#mas 'Spark', id: 1176895641
+#mas 'Speedtest', id: 1153157709
 mas 'Things', id: 904280696
 mas 'Tweetbot', id: 1384080005
+mas 'whatsapp-desktop' id: 1147396723 
+
